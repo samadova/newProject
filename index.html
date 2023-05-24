@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Customer Relationship Management System Project</title>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+</head>
+<body>
+    <form id="registration-form">
+        <label for="first-name">Имя:</label>
+        <input type="text" id="first-name" required>
+      
+        <label for="last-name">Фамилия:</label>
+        <input type="text" id="last-name" required>
+      
+        <label for="check-in-date">Дата заезда:</label>
+        <input type="date" id="check-in-date" required>
+      
+        <label for="check-out-date">Дата выезда:</label>
+        <input type="date" id="check-out-date" required>
+      
+        <button type="submit">Зарегистрировать гостя</button>
+      </form>
+
+      <form id="checkout-form">
+        <label for="guest-id">ID гостя:</label>
+        <input type="text" id="guest-id" required>
+      
+        <button type="submit">Гость выехал</button>
+      </form>
+      
+    <script src="./script.js"></script>
+</body>
+</html>
